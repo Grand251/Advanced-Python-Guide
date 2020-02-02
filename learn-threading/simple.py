@@ -49,7 +49,7 @@ print('Time for all 3 three threads to finish: {}'.format(elapsed))
 # we won't actually save all that much time due to the GIL restricting us to
 # one thread at a time. For these situations, we can either use multiprocessing
 # for long-running processes (they have to be long enough to negate the slow
-# process startup time) or we ca write extensions in C that escape the GIL. The
+# process startup time) or we can write extensions in C that escape the GIL. The
 # latter scenario is usually unnecessary since there are so many third party
 # packages that have already done the leg work. NumPy is one such package, that
 # facilitates mathematical computations at the speed of C!
