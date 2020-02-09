@@ -1,7 +1,15 @@
 """
 Python allows diamond inheritance, and normally works as expected.
 The following is a simple example of diamond inheritance.
+
+Class inheritance pattern
+        A
+      // \\
+      B   C
+      \\ //
+        D
 """
+
 
 class A:
     """Base class that only inherits from object"""
