@@ -16,6 +16,6 @@ class C(B):
     pass
 
 
-print('A:', A.mro())
-print('B:', B.mro())
-print('C:', C.mro())
+print('A.mro():', A.mro())
+print('B.mro():', B.mro())
+print('C.mro():', C.mro())
